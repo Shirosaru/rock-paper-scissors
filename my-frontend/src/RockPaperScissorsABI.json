@@ -1,0 +1,46 @@
+[
+  {
+    "name": "createGame",
+    "type": "function",
+    "inputs": [],
+    "outputs": [{ "name": "gameId", "type": "uint256" }],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "name": "joinGame",
+    "type": "function",
+    "inputs": [
+      { "name": "gameId", "type": "uint256" },
+      { "name": "choice", "type": "uint8" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "name": "games",
+    "type": "function",
+    "inputs": [{ "name": "gameId", "type": "uint256" }],
+    "outputs": [
+      { "name": "player1", "type": "address" },
+      { "name": "choice1", "type": "uint8" },
+      { "name": "player2", "type": "address" },
+      { "name": "choice2", "type": "uint8" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "name": "getGameOutcome",
+    "type": "function",
+    "inputs": [{ "name": "gameId", "type": "uint256" }],
+    "outputs": [{ "name": "outcome", "type": "uint8" }],
+    "stateMutability": "view"
+  },
+  {
+    "name": "GameCreated",
+    "type": "event",
+    "inputs": [
+      { "name": "gameId", "type": "uint256", "indexed": true },
+      { "name": "player1", "type": "address", "indexed": true }
+    ]
+  }
+]
