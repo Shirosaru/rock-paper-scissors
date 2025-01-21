@@ -1,8 +1,6 @@
-# Sample Hardhat Project
+# Rock Paper Scissors
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
+This project is a test project to perform rock paper scissors on a Web3 Solidity Interface
 
 ```shell
 npx hardhat help
