@@ -2,6 +2,13 @@
 
 This project is a test project to perform rock paper scissors on a Web3 Solidity Interface
 
+run hardhat in background
+```shell
+hardhat
+```
+
+deploy contract in hardhat
+get contract address 
 ```shell
 npx hardhat help
 npx hardhat test
