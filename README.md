@@ -7,6 +7,11 @@ run hardhat in background
 hardhat
 ```
 
+install components
+```shell
+npm run install
+```
+
 deploy contract in hardhat
 get contract address 
 ```shell
@@ -15,5 +20,6 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
+npx hardhat run scripts/deploy.js --network rinkeby
 ```
 # rock-paper-scissors
